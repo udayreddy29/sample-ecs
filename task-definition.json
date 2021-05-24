@@ -1,0 +1,18 @@
+{
+    "family": "sample",
+    "containerDefinitions": [
+        {
+            "name": "sample-demo-service",
+            "image": "363128713288.dkr.ecr.us-west-1.amazonaws.com/sample-ecs",
+            "cpu": 128,
+            "memoryReservation": 128,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true
+        }
+    ]
+}
