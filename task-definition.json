@@ -1,8 +1,8 @@
 {
-    "family": "sample",
+    "family": "registry",
     "containerDefinitions": [
         {
-            "name": "sample-demo-service",
+            "name": "registry",
             "image": "363128713288.dkr.ecr.us-west-1.amazonaws.com/sample-ecs",
             "cpu": 128,
             "memoryReservation": 128,
