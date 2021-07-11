@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "name": "registry",
-            "image": "363128713288.dkr.ecr.us-west-1.amazonaws.com/sample-ecs",
+            "image": "363128713288.dkr.ecr.us-east-1.amazonaws.com/sample-ecs",
             "cpu": 128,
             "memoryReservation": 128,
             "portMappings": [
